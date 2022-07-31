@@ -8,8 +8,8 @@ token = ""
 
 @bot.event
 async def on_ready():
-    await print(f"OMEGA Bot is connected!\nLogged in as: {bot.user.name}#{bot.user.discriminator}\nPREFIX: !")
-    await print(f"Guilds: {len(bot.guilds)}")
+    print(f"OMEGA Bot is connected!\nLogged in as: {bot.user.name}#{bot.user.discriminator}\nPREFIX: !")
+    print(f"Guilds: {len(bot.guilds)}")
     admins = []
     bots = []
     bans = []
